@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B12A4522D48AD5001B35C5 /* UICollectionViewCardLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B12A4422D48AD5001B35C5 /* UICollectionViewCardLayoutAttributes.m */; };
 		04DA757B22D3935B001C42FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DA757A22D3935B001C42FA /* AppDelegate.m */; };
 		04DA757E22D3935B001C42FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DA757D22D3935B001C42FA /* ViewController.m */; };
 		04DA758122D3935B001C42FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DA757F22D3935B001C42FA /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		04DA758922D3935C001C42FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DA758822D3935C001C42FA /* main.m */; };
 		04DA759322D3935C001C42FA /* UICollectionViewCardLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DA759222D3935C001C42FA /* UICollectionViewCardLayoutTests.m */; };
 		04DA759E22D3935C001C42FA /* UICollectionViewCardLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DA759D22D3935C001C42FA /* UICollectionViewCardLayoutUITests.m */; };
+		04DA75AD22D393AA001C42FA /* UICollectionViewCardLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DA75AC22D393AA001C42FA /* UICollectionViewCardLayout.m */; };
+		04DA75B022D39849001C42FA /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DA75AF22D39849001C42FA /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B12A4322D48AD5001B35C5 /* UICollectionViewCardLayoutAttributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICollectionViewCardLayoutAttributes.h; sourceTree = "<group>"; };
+		04B12A4422D48AD5001B35C5 /* UICollectionViewCardLayoutAttributes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewCardLayoutAttributes.m; sourceTree = "<group>"; };
 		04DA757622D3935B001C42FA /* UICollectionViewCardLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewCardLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DA757922D3935B001C42FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04DA757A22D3935B001C42FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,10 @@
 		04DA759922D3935C001C42FA /* UICollectionViewCardLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewCardLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DA759D22D3935C001C42FA /* UICollectionViewCardLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewCardLayoutUITests.m; sourceTree = "<group>"; };
 		04DA759F22D3935C001C42FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DA75AB22D393AA001C42FA /* UICollectionViewCardLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICollectionViewCardLayout.h; sourceTree = "<group>"; };
+		04DA75AC22D393AA001C42FA /* UICollectionViewCardLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewCardLayout.m; sourceTree = "<group>"; };
+		04DA75AE22D39849001C42FA /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		04DA75AF22D39849001C42FA /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +112,12 @@
 			children = (
 				04DA757922D3935B001C42FA /* AppDelegate.h */,
 				04DA757A22D3935B001C42FA /* AppDelegate.m */,
+				04DA75AE22D39849001C42FA /* CollectionViewCell.h */,
+				04DA75AF22D39849001C42FA /* CollectionViewCell.m */,
+				04DA75AB22D393AA001C42FA /* UICollectionViewCardLayout.h */,
+				04DA75AC22D393AA001C42FA /* UICollectionViewCardLayout.m */,
+				04B12A4322D48AD5001B35C5 /* UICollectionViewCardLayoutAttributes.h */,
+				04B12A4422D48AD5001B35C5 /* UICollectionViewCardLayoutAttributes.m */,
 				04DA757C22D3935B001C42FA /* ViewController.h */,
 				04DA757D22D3935B001C42FA /* ViewController.m */,
 				04DA757F22D3935B001C42FA /* Main.storyboard */,
@@ -262,6 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DA75AD22D393AA001C42FA /* UICollectionViewCardLayout.m in Sources */,
+				04B12A4522D48AD5001B35C5 /* UICollectionViewCardLayoutAttributes.m in Sources */,
+				04DA75B022D39849001C42FA /* CollectionViewCell.m in Sources */,
 				04DA757E22D3935B001C42FA /* ViewController.m in Sources */,
 				04DA758922D3935C001C42FA /* main.m in Sources */,
 				04DA757B22D3935B001C42FA /* AppDelegate.m in Sources */,
@@ -436,7 +454,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D47F94N52;
 				INFOPLIST_FILE = UICollectionViewCardLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +472,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4D47F94N52;
 				INFOPLIST_FILE = UICollectionViewCardLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
